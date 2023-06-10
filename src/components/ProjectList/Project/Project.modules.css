@@ -1,3 +1,5 @@
-.card-container{
+.cardContainer{
     background-color: black;
+    color:white;
+    max-width: 80%;
 }
