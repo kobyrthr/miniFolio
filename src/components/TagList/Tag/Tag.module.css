@@ -1,0 +1,13 @@
+.tag{
+    height:36px;
+    background-color:lightgray;
+    color:black;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.tag p{
+    margin: auto;
+    padding: 0 24px;
+}

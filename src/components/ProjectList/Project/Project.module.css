@@ -1,24 +1,36 @@
 .cardContainer{
     background-color: #F8F8F8;
-    color:white;
+    color:black;
     width: 1169px;
     height:326px;
     margin-bottom: 16px;
     display: flex;
     flex-direction: row;
-    position:relative;
 }
 
 .projectImage{
-margin-right: 72px;
-max-width: 447px;
-max-height: 295px;
-width: auto;
-height: auto;
-position: absolute;
-bottom:0;
+   display: flex;
+   flex-direction: column;
+
 }
 
-.projectImage{
+.projectImage img{
+    margin-top: auto;
+    margin-right: 72px;
+    max-width: 447px;
+    max-height: 295px;
+    width: auto;
+    height: auto;
+}
+
+.projectDetails{
+    height: 295px;
+    flex-direction: column;
+    margin-top: 84px;
+
+}
+
+.projectDetails p{
+    margin-top: auto;
 
 }
